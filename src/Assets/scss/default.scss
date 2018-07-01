@@ -10,41 +10,55 @@ header {
     z-index: 2;
 
     .name {
-        position: absolute;
-        color: $orange;
+        transform: translateX(-50%);
+        left: 50%;
         text-align: center;
+        position: relative;
+        color: $orange;
         font-size: 48px;
         font-weight: normal;
-        top: 10%;
-        left: 50%;
-        transform: translateX(-50%);
+    }
 
-        .contact {
-            font-size: 16px;
-            width: 100%;
-            text-align: center;
-            font-style: italic;
-            font-weight: 400;
-            color: $white; 
+    .contact {
+        position: relative;
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+        font-style: italic;
+        font-weight: 400;
+        color: $white; 
+        vertical-align: top;
+        display: inline-block;
+
+        .info-container {
+            display: inline-flex;
             vertical-align: top;
-            text-align: center;
-
-            @include translateY(50%);
+            padding-right: 6px;
+            padding-left: 6px;
+            .info-icon {
+                display: inline-flex;
+                transform: translateY(-2px);
+                padding-right: 6px;
+            }
         }
     }
 
     nav {
-        width: 60%;
-        left: 10%;
-        text-align: center;
-        top: 80%;
-        left: 50%;
         transform: translateX(-50%);
+        left: 50%;
+        top: 15%;
+        text-align: center;
+        width: 60%;
+        text-align: center;
 
         position: relative;
         vertical-align: top;
         display: flex;
         justify-content: space-between;
+
+        svg {
+            transform: translateY(-6px);
+        }
 
         a {
             display: inline-flex;

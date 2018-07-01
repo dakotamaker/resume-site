@@ -38,37 +38,45 @@ header {
   vertical-align: middle;
   z-index: 2; }
   header .name {
-    position: absolute;
-    color: #dd924b;
-    text-align: center;
-    font-size: 48px;
-    font-weight: normal;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%); }
-    header .name .contact {
-      font-size: 16px;
-      width: 100%;
-      text-align: center;
-      font-style: italic;
-      font-weight: 400;
-      color: #ffffff;
-      vertical-align: top;
-      text-align: center;
-      -webkit-transform: translateY(50%);
-      -moz-transform: translateY(50%);
-      transform: translateY(50%); }
-  header nav {
-    width: 60%;
-    left: 10%;
-    text-align: center;
-    top: 80%;
-    left: 50%;
     transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+    position: relative;
+    color: #dd924b;
+    font-size: 48px;
+    font-weight: normal; }
+  header .contact {
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    font-style: italic;
+    font-weight: 400;
+    color: #ffffff;
+    vertical-align: top;
+    display: inline-block; }
+    header .contact .info-container {
+      display: inline-flex;
+      vertical-align: top;
+      padding-right: 6px;
+      padding-left: 6px; }
+      header .contact .info-container .info-icon {
+        display: inline-flex;
+        transform: translateY(-2px);
+        padding-right: 6px; }
+  header nav {
+    transform: translateX(-50%);
+    left: 50%;
+    top: 15%;
+    text-align: center;
+    width: 60%;
+    text-align: center;
     position: relative;
     vertical-align: top;
     display: flex;
     justify-content: space-between; }
+    header nav svg {
+      transform: translateY(-6px); }
     header nav a {
       display: inline-flex;
       font-size: 20px; }
