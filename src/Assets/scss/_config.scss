@@ -1,0 +1,53 @@
+$black: #010000;
+$white: #ffffff;
+$lightGrey: #bdb8b8;
+$darkGrey: #333;
+$red: #ff1755;
+$orange: #dd924b;
+
+
+@mixin translateY($e) {
+    -webkit-transform: translateY($e);
+    -moz-transform: translateY($e);
+    transform: translateY($e);
+}
+
+@mixin transition($e) {
+    -webkit-transition: $e;
+    -moz-transition: $e;
+    transition: $e;
+
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: $black;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color:$white;
+    @include transition(.4s ease-in);
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: none; 
+        color: $lightGrey;
+        @include transition(.4s ease-in);
+    }
+}
+
+
+.container-fluid {
+    line-height: 24px;
+    height: 100%;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    position: fixed;
+}
