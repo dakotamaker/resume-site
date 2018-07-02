@@ -50,4 +50,18 @@ a {
     padding-right: 10%;
     padding-top: 15px;
     position: fixed;
+    overflow: scroll;
+    padding-bottom: 180px;
+ 
+    h1 {
+        padding-bottom: 12px;
+    }
+    
+    .sign-off {
+        margin-bottom: 0px;
+        &:last-child {
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
 }
