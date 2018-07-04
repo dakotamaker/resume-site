@@ -8,7 +8,7 @@ class CoverLetter extends Component {
             <h1>
                 Cover Letter
             </h1>
-            <Animated animationIn="fadeInRight" animationInDelay="400" isVisible={true}>
+            <Animated animationIn="fadeInRight" animationInDelay="0" isVisible={true}>
             <h4> Current Employment </h4><hr/>
             <p>
                 Currently I am a senior Computer Engineering student at the university of Wisconsin-Milwaukee, and a full stack software engineering intern at JDA Software in Waukesha Wisconsin. 
@@ -17,7 +17,7 @@ class CoverLetter extends Component {
                 My time at JDA has immensely improved my skills as a developer and has introduced me to the real world in software; along with reinforcing my passion for both learning new skills and coming up with innovative solutions. 
             </p>
             </Animated>
-            <Animated animationIn="fadeInRight" animationInDelay="800" isVisible={true}>
+            <Animated animationIn="fadeInRight" animationInDelay="400" isVisible={true}>
             <h4> Last Work Experience </h4><hr/>
             <p>
                 Prior to my time at JDA I worked on campus as a tutor and supplemental instruction leader for the Panther Academic Support Services.
@@ -26,7 +26,7 @@ class CoverLetter extends Component {
                 as that is the corner stone of creating a well-rounded and solid team in any professional environment. 
             </p>
             </Animated>
-            <Animated animationIn="fadeInRight" animationInDelay="1200" isVisible={true}>
+            <Animated animationIn="fadeInRight" animationInDelay="800" isVisible={true}>
             <h4> Other </h4><hr/>
             <p>    
                 Through my other various work experiences in the food and service industries I have been able to be a part of many great teams and have learned to be a team player over anything. 

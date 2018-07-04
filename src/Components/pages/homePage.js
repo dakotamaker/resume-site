@@ -16,7 +16,7 @@ class HomePage extends Component {
                 Introduction
             </h1>
 
-            <Animated animationIn="fadeInUp" animationInDelay="400" isVisible={true}>
+            <Animated animationIn="fadeInUp" animationInDelay="0" isVisible={true}>
             <h3> What Is This Site? </h3><hr/>
             <p>
                 On this website you will find valuable information about myself and my qualifications for your company.
@@ -25,7 +25,7 @@ class HomePage extends Component {
             </p>
             </Animated>
 
-            <Animated animationIn="fadeInUp" animationInDelay="800" isVisible={true}>
+            <Animated animationIn="fadeInUp" animationInDelay="400" isVisible={true}>
             <h3> About Me </h3><hr/>
             <p className="about">
             <Icon icon={mapMarker} size={70}/>
