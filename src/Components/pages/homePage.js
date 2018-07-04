@@ -37,7 +37,7 @@ class HomePage extends Component {
             </p>
             <p className="about">
             <Icon icon={plane} size={70}/>
-            <div className="about-info"> Have a passion to travel to as many places as I can through the world to sight see and learn about more cultures.</div>
+            <div className="about-info"> Have a passion to travel to as many places as I can through the world to sight-see and learn about more cultures.</div>
             </p>            
             <p className="about">
             <Icon icon={laptop} size={70}/>
