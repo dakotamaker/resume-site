@@ -5,6 +5,7 @@ import Header from './Components/headerComponent/header';
 import HomePage from './Components/pages/homePage';
 import Resume from './Components/pages/resume';
 import CoverLetter from './Components/pages/coverLetter';
+import Routes from './Routes';
 
 import './Assets/css/default.css';
 
@@ -14,9 +15,9 @@ class App extends Component {
       <Router>
       <div className="App">
         <Header/>
-          <Route exact path={process.env.PUBLIC_URL+'/'} component={HomePage}/>
-          <Route exact path={process.env.PUBLIC_URL+'/resume'} component={Resume}/>
-          <Route exact path={process.env.PUBLIC_URL+'/coverLetter'} component={CoverLetter}/>
+          <Route exact path={Routes.HOME_PAGE} component={HomePage}/>
+          <Route exact path={Routes.RESUME_PAGE} component={Resume}/>
+          <Route exact path={Routes.COVER_LETTER_PAGE} component={CoverLetter}/>
       </div>
       </Router>
     );

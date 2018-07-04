@@ -5,6 +5,7 @@ import { phone } from 'react-icons-kit/fa/phone';
 import { envelope } from 'react-icons-kit/fa/envelope';
 import { github } from 'react-icons-kit/fa/github';
 import { home } from 'react-icons-kit/fa/home';
+import Routes from '../../Routes';
 
 class Header extends Component {
     render() {
@@ -19,9 +20,9 @@ class Header extends Component {
                         <div className="info-container"><div className="info-icon"><Icon icon={github} size={24}/></div><a href="https://github.com/dakotamaker" target="_blank"> DakotaMaker</a></div> 
                 </div>
                 <nav>
-                    <Link to={process.env.PUBLIC_URL+ "/"}><Icon icon={home} size={45}/></Link>
-                    <Link to={process.env.PUBLIC_URL+ "/resume"}>Resume</Link>   
-                    <Link to={process.env.PUBLIC_URL + "/coverLetter"}>Cover Letter</Link> 
+                    <Link to={Routes.HOME_PAGE}><Icon icon={home} size={45}/></Link>
+                    <Link to={Routes.RESUME_PAGE}>Resume</Link>   
+                    <Link to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
                 </nav>
             </header>
         );

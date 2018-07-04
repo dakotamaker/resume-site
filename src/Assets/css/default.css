@@ -37,6 +37,13 @@ a {
     .container-fluid .sign-off:last-child {
       font-style: italic;
       font-weight: bold; }
+  .container-fluid div .about {
+    display: flex; }
+    .container-fluid div .about svg {
+      margin-right: 30px;
+      color: #dd924b; }
+    .container-fluid div .about .about-info {
+      margin-top: 25px; }
 
 header {
   position: relative;
