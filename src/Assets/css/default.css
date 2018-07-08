@@ -58,6 +58,8 @@ a {
   .container-fluid .alt-hr {
     width: 80%;
     margin-top: 0; }
+  .container-fluid .work-description {
+    font-weight: 600; }
   .container-fluid .image-with-list {
     display: flex;
     margin-bottom: 20px;
