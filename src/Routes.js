@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 
 class Routes extends Component {
     static HOME_PAGE = process.env.PUBLIC_URL+'/';

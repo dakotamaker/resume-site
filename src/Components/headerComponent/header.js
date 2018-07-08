@@ -17,7 +17,7 @@ class Header extends Component {
                 <div className="contact">
                         <div className="info-container"><div className="info-icon"><Icon icon={phone} size={28}/></div> (507)-218-6658 |</div> 
                         <div className="info-container"><div className="info-icon"><Icon icon={envelope} size={24}/></div><a href="mailto:dakotamaker@gmail.com">  dakotamaker@gmail.com | </a></div>
-                        <div className="info-container"><div className="info-icon"><Icon icon={github} size={24}/></div><a href="https://github.com/dakotamaker" target="_blank"> DakotaMaker</a></div> 
+                        <div className="info-container"><div className="info-icon"><Icon icon={github} size={24}/></div><a href="https://github.com/dakotamaker" target="_blank" rel="noopener noreferrer"> DakotaMaker</a></div> 
                 </div>
                 <nav>
                     <Link to={Routes.HOME_PAGE}><Icon icon={home} size={45}/></Link>

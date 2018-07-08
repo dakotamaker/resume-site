@@ -56,6 +56,10 @@ a {
     h1 {
         padding-bottom: 12px;
     }
+
+    h4 {
+        font-weight: bold;
+    }
     
     .sign-off {
         margin-bottom: 0px;
@@ -72,10 +76,54 @@ a {
                 margin-right: 30px;
                 color: $orange;
             }
-
             .about-info {
                 margin-top: 25px;
             }
+        }
+    }
+
+    table {
+
+        caption {
+            caption-side: top;
+            color: $orange;
+            padding: 0;
+        }
+
+        &:first-child {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        &:last-child {
+            padding-bottom: 24px;
+        }
+    }
+
+    .alt-hr {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    .image-with-list {
+        display: flex;
+        margin-bottom: 20px;
+        width: 100%;
+
+        img {
+            max-height: 120px;
+            max-width: 120px;
+        }
+
+        svg {
+            color: $orange;
+        }
+
+        ul {
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
     }
 }
