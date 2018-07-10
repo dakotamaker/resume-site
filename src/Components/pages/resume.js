@@ -47,13 +47,13 @@ class Resume extends Component {
 
         const languagesAndFrameworks = [{key: 'Java', exp: "✔"}, {key: 'JavaScript', prof: "✔"}, 
                                         {key: 'Angular.JS', prof: "✔"}, {key: 'Angular Material', prof: "✔"}, 
-                                        {key: 'React.JS', prof: "✔"}, {key: 'Python', prof: "✔"}, 
-                                        {key: 'C', qual: "✔"}, {key: ' '}];
+                                        {key: 'React.JS', prof: "✔"}, {key: 'HTML5 + CSS3', prof: "✔"},
+                                        {key: 'Python', prof: "✔"}, {key: 'C', qual: "✔"}, {key: ' '}];
 
         const tools = [{key: 'Android Mobile', qual: "✔"}, {key: 'Git', exp: "✔"}, 
                        {key: 'Google Data Studio', exp: "✔"}, {key: 'Google Sheets', exp: "✔"}, 
                        {key: 'Jenkins CD Pipeline', prof: "✔"}, {key: 'Jira', exp: "✔"}, 
-                       {key: 'Microsoft Office',exp: "✔"}, {key: ' '}];
+                       {key: 'Microsoft Office',exp: "✔"}, {key: 'Postman', prof: "✔"}, {key: ' '}];
 
         const columns = [{dataField: 'key', text: ' ', align: 'left'}, 
                          {dataField: 'qual', text: 'Qualified', align: 'center', headerAlign: 'center', classes: 'check'}, 

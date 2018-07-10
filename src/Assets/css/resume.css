@@ -27,15 +27,13 @@ a {
 .container-fluid {
   line-height: 24px;
   height: 100%;
-  z-index: 1;
-  height: 100%;
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 15px;
   position: fixed;
   overflow: scroll;
-  padding-bottom: 140px; }
+  padding-bottom: 135px; }
   .container-fluid h1 {
     padding-bottom: 12px; }
   .container-fluid h4 {
