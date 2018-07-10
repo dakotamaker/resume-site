@@ -24,9 +24,7 @@ header {
         position: relative;
         padding-bottom: 4px;
         text-align: center;
-        @media (min-width: 481px)  { font-size: 20px; }
-        /* Landscape phones and down */
-        @media (max-width: 480px) { font-size: 14px; }
+        font-size: 14px; 
         width: 100%;
         font-style: italic;
         font-weight: 400;

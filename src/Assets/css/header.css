@@ -81,19 +81,13 @@ header {
     position: relative;
     padding-bottom: 4px;
     text-align: center;
-    /* Landscape phones and down */
+    font-size: 14px;
     width: 100%;
     font-style: italic;
     font-weight: 400;
     color: #ffffff;
     vertical-align: top;
     display: inline-block; }
-    @media (min-width: 481px) {
-      header .contact {
-        font-size: 20px; } }
-    @media (max-width: 480px) {
-      header .contact {
-        font-size: 14px; } }
     header .contact .info-container {
       display: inline-flex;
       vertical-align: top;
