@@ -1,0 +1,15 @@
+@import "./_config.scss";
+.container-fluid {
+    div { 
+        .about {
+            display: flex;
+            svg {
+                margin-right: 30px;
+                color: $orange;
+            }
+            .about-info {
+                margin-top: 25px;
+            }
+        }
+    }
+}

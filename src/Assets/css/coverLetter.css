@@ -1,0 +1,5 @@
+.container-fluid .sign-off {
+  margin-bottom: 0px; }
+  .container-fluid .sign-off:last-child {
+    font-style: italic;
+    font-weight: bold; }

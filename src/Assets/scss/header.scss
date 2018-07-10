@@ -5,7 +5,6 @@ header {
     width: 100%;
     background: $darkGrey;
     color: $white;
-    height: 180px;
     vertical-align: middle;
     z-index: 2;
 
@@ -15,14 +14,19 @@ header {
         text-align: center;
         position: relative;
         color: $orange;
-        font-size: 48px;
+        @media (min-width: 481px)  { font-size: 48px; }
+        /* Landscape phones and down */
+        @media (max-width: 480px) { font-size: 36px; }
         font-weight: normal;
     }
 
     .contact {
         position: relative;
+        padding-bottom: 4px;
         text-align: center;
-        font-size: 16px;
+        @media (min-width: 481px)  { font-size: 20px; }
+        /* Landscape phones and down */
+        @media (max-width: 480px) { font-size: 14px; }
         width: 100%;
         font-style: italic;
         font-weight: 400;
@@ -44,16 +48,12 @@ header {
     }
 
     nav {
-        transform: translateX(-50%);
-        left: 50%;
-        top: 15%;
         text-align: center;
-        width: 60%;
-        text-align: center;
+        padding-right: 15%;
+        padding-left: 15%;
 
-        position: relative;
-        vertical-align: top;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
 
         svg {

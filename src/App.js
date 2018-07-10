@@ -7,7 +7,10 @@ import Resume from './Components/pages/resume';
 import CoverLetter from './Components/pages/coverLetter';
 import Routes from './Routes';
 
-import './Assets/css/default.css';
+import './Assets/css/header.css';
+import './Assets/css/homePage.css';
+import './Assets/css/resume.css';
+import './Assets/css/coverLetter.css';
 
 class App extends Component {
   render() {

@@ -5,6 +5,7 @@ import Icon from 'react-icons-kit';
 import { graduationCap } from 'react-icons-kit/fa/graduationCap';
 import { group } from 'react-icons-kit/fa/group';
 import { certificate } from 'react-icons-kit/fa/certificate';
+import { check } from 'react-icons-kit/fa/check';
 
 import uwmImg from '../../Assets/images/UWM.png';
 import pantherImg from '../../Assets/images/Panther.png';
@@ -12,6 +13,10 @@ import jdaImg from '../../Assets/images/jda.jpg';
 
 class Resume extends Component {
     render() {
+        const LanguagesCaption = () => <h4 style={{  textAlign: 'center', padding: '0.5em' }}>Languages/Frameworks</h4>;
+        const ToolsCaption = () => <h4 style={{  textAlign: 'center', padding: '0.5em' }}>Tools</h4>;
+        const CheckIcon = () => <Icon icon={check} size={10}/>
+
         const educationInfo = ["Bachelors of Science in Computer Engineering", 
                               "Anticipated gradutaion: May 2019", 
                               "GPA: 3.554"
@@ -40,23 +45,20 @@ class Resume extends Component {
 
         const certAwardsInfo = ["Received CRLA International Level II Tutor Training certification"];
 
-        const languagesAndFrameworks = [{key: 'Java', exp: "x"}, {key: 'JavaScript', prof: "x"}, 
-                                        {key: 'Angular.JS', prof: "x"}, {key: 'Angular Material', prof: "x"}, 
-                                        {key: 'React.JS', prof: "x"}, {key: 'Python', prof: "x"}, 
-                                        {key: 'C', qual: "x"}, {key: ' '}];
+        const languagesAndFrameworks = [{key: 'Java', exp: "✔"}, {key: 'JavaScript', prof: "✔"}, 
+                                        {key: 'Angular.JS', prof: "✔"}, {key: 'Angular Material', prof: "✔"}, 
+                                        {key: 'React.JS', prof: "✔"}, {key: 'Python', prof: "✔"}, 
+                                        {key: 'C', qual: "✔"}, {key: ' '}];
 
-        const tools = [{key: 'Android Mobile', qual: "x"}, {key: 'Git', exp: "x"}, 
-                       {key: 'Google Data Studio', exp: "x"}, {key: 'Google Sheets', exp: "x"}, 
-                       {key: 'Jenkins CD Pipeline', prof: "x"}, {key: 'Jira', exp: "x"}, 
-                       {key: 'Microsoft Office',exp: "x"}, {key: ' '}];
+        const tools = [{key: 'Android Mobile', qual: "✔"}, {key: 'Git', exp: "✔"}, 
+                       {key: 'Google Data Studio', exp: "✔"}, {key: 'Google Sheets', exp: "✔"}, 
+                       {key: 'Jenkins CD Pipeline', prof: "✔"}, {key: 'Jira', exp: "✔"}, 
+                       {key: 'Microsoft Office',exp: "✔"}, {key: ' '}];
 
         const columns = [{dataField: 'key', text: ' ', align: 'left'}, 
-                         {dataField: 'qual', text: 'Qualified', align: 'center', headerAlign: 'center'}, 
-                         {dataField: 'prof', text: 'Proficient', align: 'center', headerAlign: 'center'}, 
-                         {dataField: 'exp', text: 'Experienced', align: 'center', headerAlign: 'center'}];
-  
-        const CaptionElement1 = () => <h4 style={{  textAlign: 'center', padding: '0.5em' }}>Languages/Frameworks</h4>;
-        const CaptionElement2 = () => <h4 style={{  textAlign: 'center', padding: '0.5em' }}>Tools</h4>;
+                         {dataField: 'qual', text: 'Qualified', align: 'center', headerAlign: 'center', classes: 'check'}, 
+                         {dataField: 'prof', text: 'Proficient', align: 'center', headerAlign: 'center', classes: 'check'}, 
+                         {dataField: 'exp', text: 'Experienced', align: 'center', headerAlign: 'center', classes: 'check'}];
 
         const education = this.createList(educationInfo);
         const jda = this.createList(jdaInfo);
@@ -86,13 +88,13 @@ class Resume extends Component {
             <h4> Skills </h4><hr/>
             <BootStrapTable
                 keyField="key"
-                caption={<CaptionElement1 />}
+                caption={<LanguagesCaption />}
                 data={ languagesAndFrameworks }
                 columns={ columns }
                 bordered={ false }/>
             <BootStrapTable
                 keyField="key"
-                caption={<CaptionElement2 />}
+                caption={<ToolsCaption />}
                 data={ tools }
                 columns={ columns }
                 bordered={ false }/>
