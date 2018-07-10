@@ -52,18 +52,8 @@ a {
     padding-top: 15px;
     position: fixed;
     overflow: scroll;
-    /* Large desktop */
-    @media (min-width: 1200px) { padding-bottom: 12%; }
+    padding-bottom: 140px;
 
-    /* Portrait tablet to landscape and desktop */
-    @media (min-width: 768px) and (max-width: 1199px) { padding-bottom: 15% }
-
-    /* Landscape phone to portrait tablet */
-    @media (max-width: 767px) { padding-bottom: 35%; }
-
-    /* Landscape phones and down */
-    @media (max-width: 480px) { padding-bottom: 40%; }
- 
     h1 {
         padding-bottom: 12px;
     }
