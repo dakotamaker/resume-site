@@ -15,7 +15,7 @@ class Header extends Component {
                     Dakota Daniel Maker
                 </div>
                 <div className="contact">
-                        <div className="info-container"><div className="info-icon"><Icon icon={phone} size={28}/></div> (507)-218-6658 |</div> 
+                        <div className="info-container"><div className="info-icon"><Icon icon={phone} size={28}/></div><a href="tel:507-218-6658"> (507)-218-6658 |</a></div> 
                         <div className="info-container"><div className="info-icon"><Icon icon={envelope} size={24}/></div><a href="mailto:dakotamaker@gmail.com">  dakotamaker@gmail.com | </a></div>
                         <div className="info-container"><div className="info-icon"><Icon icon={github} size={24}/></div><a href="https://github.com/dakotamaker" target="_blank" rel="noopener noreferrer"> DakotaMaker</a></div> 
                 </div>
