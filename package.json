@@ -12,7 +12,8 @@
     "react-scripts": "^1.1.4",
     "gh-pages": "^1.2.0",
     "react-animated-css": "^1.0.4",
-    "react-bootstrap-table-next": "^0.1.14"
+    "react-bootstrap-table-next": "^0.1.14",
+    "hoek": "^5.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
