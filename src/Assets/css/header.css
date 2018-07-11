@@ -57,7 +57,7 @@ header {
       color: #dd924b; }
       @media (min-width: 1000px) {
         header .name-container .name {
-          font-size: 40px;
+          font-size: 44px;
           width: 60%;
           text-align: left; } }
       @media (max-width: 1001px) {

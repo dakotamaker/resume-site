@@ -5,20 +5,6 @@ $darkGrey: #333;
 $red: #ff1755;
 $orange: #dd924b;
 
-
-@mixin translateY($e) {
-    -webkit-transform: translateY($e);
-    -moz-transform: translateY($e);
-    transform: translateY($e);
-}
-
-@mixin transition($e) {
-    -webkit-transition: $e;
-    -moz-transition: $e;
-    transition: $e;
-
-}
-
 body {
     font-family: 'Raleway', sans-serif;
     @media (min-width: 481px)  { font-size: 18px; }
@@ -27,6 +13,12 @@ body {
     color: $black;
     font-weight: 400;
     font-style: normal;
+}
+
+@mixin transition($e) {
+    -webkit-transition: $e;
+    -moz-transition: $e;
+    transition: $e;
 }
 
 a {

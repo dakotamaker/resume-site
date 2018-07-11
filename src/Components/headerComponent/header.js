@@ -13,7 +13,7 @@ class Header extends Component {
             <header>
                 <div className="name-container">
                     <div className="name">
-                        Dakota Daniel Maker
+                        Dakota D. Maker
                     </div>
                     <nav className="desktop-screen">
                         <Link to={Routes.HOME_PAGE}>Home</Link>
