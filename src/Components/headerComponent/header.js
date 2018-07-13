@@ -4,13 +4,12 @@ import Icon from 'react-icons-kit';
 import { phone } from 'react-icons-kit/fa/phone';
 import { envelope } from 'react-icons-kit/fa/envelope';
 import { github } from 'react-icons-kit/fa/github';
-import { home } from 'react-icons-kit/fa/home';
 import Routes from '../../Routes';
 
 class Header extends Component {
     render() {
         return (
-            <header>
+            <header id="header">
                 <div className="name-container">
                     <div className="name">
                         Dakota D. Maker

@@ -9,7 +9,8 @@ class ResumeTables extends Component {
     const languagesAndFrameworks = [{key: 'Java', exp: "✔"}, {key: 'JavaScript', prof: "✔"}, 
                                     {key: 'Angular.JS', prof: "✔"}, {key: 'Angular Material', prof: "✔"}, 
                                     {key: 'React.JS', prof: "✔"}, {key: 'HTML5 + CSS3', prof: "✔"},
-                                    {key: 'Python', prof: "✔"}, {key: 'C', qual: "✔"}, {key: ' '}];
+                                    {key: 'Python', prof: "✔"}, {key: 'C', qual: "✔"}, {key: 'SQL', qual: "✔"},
+                                    {key: ' '}];
   
     const tools = [{key: 'Android Mobile', qual: "✔"}, {key: 'Git', exp: "✔"}, 
                    {key: 'Google Data Studio', exp: "✔"}, {key: 'Google Sheets', exp: "✔"}, 

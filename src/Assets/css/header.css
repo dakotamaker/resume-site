@@ -1,5 +1,11 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  overflow-y: scroll; }
+
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /* Landscape phones and down */
   color: #010000;
   font-weight: 400;
@@ -26,14 +32,22 @@ a {
 
 .container-fluid {
   line-height: 24px;
-  height: 100%;
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 15px;
   position: fixed;
-  overflow: scroll;
-  padding-bottom: 135px; }
+  overflow-y: scroll;
+  overflow-x: auto;
+  bottom: 20px; }
+  @media (min-width: 1001px) {
+    .container-fluid {
+      top: 16%; } }
+  @media (min-width: 530px) and (max-width: 1000px) {
+    .container-fluid {
+      top: 20%; } }
+  @media (max-width: 529px) {
+    .container-fluid {
+      top: 24%; } }
   .container-fluid h1 {
     padding-bottom: 12px; }
   .container-fluid h4 {
@@ -101,11 +115,15 @@ header {
     header .contact .info-container {
       display: inline-flex;
       vertical-align: top;
-      padding-right: 6px;
-      padding-left: 6px; }
+      padding-right: 4px;
+      padding-left: 2px; }
       header .contact .info-container .info-icon {
         display: inline-flex;
         padding-right: 6px; }
+        header .contact .info-container .info-icon svg {
+          padding-bottom: 4px; }
+          header .contact .info-container .info-icon svg:nth-child(2) {
+            padding-bottom: 5px; }
   @media (min-width: 1001px) {
     header .phone-screen {
       display: none; } }

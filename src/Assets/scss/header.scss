@@ -74,11 +74,19 @@ header {
         .info-container {
             display: inline-flex;
             vertical-align: top;
-            padding-right: 6px;
-            padding-left: 6px;
+            padding-right: 4px;
+            padding-left: 2px;
             .info-icon {
                 display: inline-flex;
                 padding-right: 6px;
+
+                svg {
+                    padding-bottom: 4px;
+
+                    &:nth-child(2) {
+                        padding-bottom: 5px;
+                    }
+                }
             }
         }
     }
