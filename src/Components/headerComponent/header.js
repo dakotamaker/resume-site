@@ -9,7 +9,7 @@ import Routes from '../../Routes';
 class Header extends Component {
     render() {
         return (
-            <header id="header">
+            <header>
                 <div className="name-container">
                     <div className="name">
                         Dakota D. Maker
