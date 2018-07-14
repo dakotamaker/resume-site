@@ -21,7 +21,7 @@ class HomePage extends Component {
             <p>
                 On this website you will find valuable information about myself and my qualifications for your company.
                 I created this to not only get more experience with React and web development, but also as a unique twist on an old, boring resume.
-                Feel free to explore this page and learn more about the author, and don't hesitate to use the information in the header to contact me with questions, concerns, comments, or even better yet, a job!
+                Feel free to explore this page and learn more about me, and don't hesitate to use the information in the header to contact me with questions, concerns, comments, or even better yet, a job offer!
             </p>
             </Animated>
 
@@ -33,11 +33,11 @@ class HomePage extends Component {
             </p>
             <p className="about">
             <Icon icon={futbolO} size={70}/>
-            <div className="about-info"> I am an avid sports fan. Played baseball and football through high school and club football in college.</div>
+            <div className="about-info"> I am an avid sports fan. I played baseball and football through high school and club football in college.</div>
             </p>            
             <p className="about">
             <Icon icon={laptop} size={70}/>
-            <div className="about-info"> A major goal of mine is to become a head software architect for a company (Who knows, it could be yours).</div>
+            <div className="about-info"> A major goal of mine is to become a head software architect for a company (who knows, it could be yours).</div>
             </p>            
             <p className="about">
             <Icon icon={superscript} size={70}/>
@@ -49,7 +49,7 @@ class HomePage extends Component {
             </p>
             <p className="about">
             <Icon icon={plane} size={70}/>
-            <div className="about-info"> I have a passion to travel to as many places as I can through the world to sight-see and learn about more cultures.</div>
+            <div className="about-info"> I have a passion to travel to as many places as I can across the world to sight-see and learn about different cultures.</div>
             </p>  
             </Animated>
         </div>
