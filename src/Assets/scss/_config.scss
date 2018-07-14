@@ -15,9 +15,7 @@ $orange: #dd924b;
 
 body {
     font-family: 'Open Sans', sans-serif;
-    @media (min-width: 481px)  { font-size: 18px; }
-    /* Landscape phones and down */
-    @media (max-width: 480px) { font-size: 12px; }
+    font-size: 18px;
     color: $black;
     font-weight: 400;
     font-style: normal;
