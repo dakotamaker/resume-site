@@ -7,13 +7,17 @@ import { plane } from 'react-icons-kit/fa/plane';
 import { laptop } from 'react-icons-kit/fa/laptop';
 import { superscript } from 'react-icons-kit/fa/superscript';
 import { language } from 'react-icons-kit/fa/language';
+import logo from '../../Assets/images/logo.png'
 
 class HomePage extends Component {
     render() {
         return (
         <div className="container-fluid">
             <h1>
-                Introduction
+                <div className="page-title">Introduction</div> 
+                <div className="logo-container">
+                    <img src={logo}/>
+                </div>
             </h1>
 
             <Animated animationIn="fadeInUp" isVisible={true}>

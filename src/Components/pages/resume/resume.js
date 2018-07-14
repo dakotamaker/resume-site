@@ -10,6 +10,7 @@ import ResumeDescriptions from './resumeDescriptions';
 import uwmImg from '../../../Assets/images/UWM.png';
 import pantherImg from '../../../Assets/images/Panther.png';
 import jdaImg from '../../../Assets/images/jda.png';
+import logo from '../../../Assets/images/logo.png'
 
 class Resume extends Component {
     render() {
@@ -23,9 +24,12 @@ class Resume extends Component {
         return (
         <div className="container-fluid">
             <h1>
-                Resume
+                <div className="page-title">Resume</div> 
+                <div className="logo-container">
+                    <img src={logo}/>
+                </div>
             </h1>
-
+            
             <Animated animationIn="fadeIn" isVisible={true}>
             <h4> Objective </h4><hr/>
             <p>

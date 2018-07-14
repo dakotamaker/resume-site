@@ -43,7 +43,12 @@ a {
     .container-fluid {
       top: 29%; } }
   .container-fluid h1 {
-    padding-bottom: 12px; }
+    padding-bottom: 12px;
+    display: flex; }
+    .container-fluid h1 .page-title {
+      width: calc(100% - 50px); }
+    .container-fluid h1 .logo-container img {
+      max-height: 50px; }
   .container-fluid h4 {
     font-weight: bold; }
 

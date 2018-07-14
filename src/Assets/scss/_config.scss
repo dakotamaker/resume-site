@@ -53,6 +53,17 @@ a {
     bottom: 20px;
     h1 {
         padding-bottom: 12px;
+        display: flex;
+
+        .page-title {
+            width: calc(100% - 50px);
+        }
+
+        .logo-container {
+            img {
+                max-height: 50px;
+            }
+        }
     }
 
     h4 {

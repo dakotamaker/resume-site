@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import { Animated } from 'react-animated-css';
 
+import logo from '../../Assets/images/logo.png'
+
 class CoverLetter extends Component {
     render() {
         return (
         <div className="container-fluid">
             <h1>
-                Cover Letter
+                <div className="page-title">Cover Letter</div> 
+                <div className="logo-container">
+                    <img src={logo}/>
+                </div>
             </h1>
             <Animated animationIn="fadeInRight" animationInDelay="0" isVisible={true}>
             <h4> Current Employment </h4><hr/>
