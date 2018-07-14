@@ -24,7 +24,7 @@ class ResumeDescriptions extends Component {
     "Recipient of the Mayo Clinic Scholarship for academic performance", 
     "Capstone project was used for presentations during worldwide JDA Focus conference"];
 
-    static groupAwardsDescription = ["Elected to be the Assistant Recruiting officer for the Google Student Ambassador Team (2015)", 
+    static groupAwardsDescription = ["Elected to be the Assistant Recruiting officer for the Google Student Ambassador Team (2016)", 
     "Elected to be the Recruiting officer for the Engineering Student Council. Helped double membership (2015-2016)"];
 
     static certAwardsDescription = ["Received CRLA International Level II Tutor Training certification"];

@@ -35,7 +35,7 @@ a {
   bottom: 20px; }
   @media (min-width: 1001px) {
     .container-fluid {
-      top: 17%; } }
+      top: 18%; } }
   @media (min-width: 487px) and (max-width: 1000px) {
     .container-fluid {
       top: 24%; } }
