@@ -4,22 +4,17 @@
     .work-description {
         font-weight: 600;
     }
-
     .image-with-list {
         display: flex;
         margin-bottom: 20px;
         width: 100%;
-
         img {
             max-height: 120px;
             max-width: 120px;
         }
-        
-
         svg {
             color: $orange;
         }
-
         ul {
             margin-bottom: 0;
             display: flex;
@@ -32,25 +27,20 @@
         width: 80%;
         margin-top: 0;
     }
-
     table {
-
         caption {
             caption-side: top;
             color: $orange;
             padding: 0;
         }
-
         .check {
             color: green;
             font-size: 30px;
         }
-
         &:first-child {
             padding-bottom: 0;
             margin-bottom: 0;
         }
-
         &:last-child {
             padding-bottom: 24px;
         }

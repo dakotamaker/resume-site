@@ -14,7 +14,7 @@ $orange: #dd924b;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     @media (min-width: 481px)  { font-size: 18px; }
     /* Landscape phones and down */
     @media (max-width: 480px) { font-size: 12px; }
@@ -46,9 +46,9 @@ a {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    @media (min-width: 1001px)  { top: 16%; }
-    @media (min-width: 530px) and (max-width: 1000px)  { top: 20%; }
-    @media (max-width: 529px)  { top: 24%; }
+    @media (min-width: 1001px)  { top: 17%; }
+    @media (min-width: 487px) and (max-width: 1000px)  { top: 24%; }
+    @media (max-width: 486px)  { top: 29%; }
     position: fixed;
     overflow-y: scroll;
     overflow-x: auto;

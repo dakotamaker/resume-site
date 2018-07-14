@@ -5,7 +5,7 @@
   overflow-y: scroll; }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /* Landscape phones and down */
   color: #010000;
   font-weight: 400;
@@ -41,13 +41,13 @@ a {
   bottom: 20px; }
   @media (min-width: 1001px) {
     .container-fluid {
-      top: 16%; } }
-  @media (min-width: 530px) and (max-width: 1000px) {
-    .container-fluid {
-      top: 20%; } }
-  @media (max-width: 529px) {
+      top: 17%; } }
+  @media (min-width: 487px) and (max-width: 1000px) {
     .container-fluid {
       top: 24%; } }
+  @media (max-width: 486px) {
+    .container-fluid {
+      top: 29%; } }
   .container-fluid h1 {
     padding-bottom: 12px; }
   .container-fluid h4 {
