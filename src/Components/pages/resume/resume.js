@@ -9,7 +9,7 @@ import ResumeTables from './resumeTables';
 import ResumeDescriptions from './resumeDescriptions';
 import uwmImg from '../../../Assets/images/UWM.png';
 import pantherImg from '../../../Assets/images/Panther.png';
-import jdaImg from '../../../Assets/images/jda.jpg';
+import jdaImg from '../../../Assets/images/jda.png';
 
 class Resume extends Component {
     render() {
