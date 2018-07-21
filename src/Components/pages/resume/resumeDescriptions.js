@@ -14,7 +14,7 @@ class ResumeDescriptions extends Component {
     "Collaborated with my own team, other cloud teams in JDA, and other departments to deliver high quality software", 
     ];
 
-    static passDescription = ["Planed and conduct five weekly physics and math review sessions in addition to regular review sessions", 
+    static passDescription = ["Planed and conducted five weekly physics and math review sessions in addition to regular review sessions", 
     "Coordinated with professors on lesson plans ", 
     "Helped increase morale and grades in classes through relating and assisting students in their studies"
     ];
