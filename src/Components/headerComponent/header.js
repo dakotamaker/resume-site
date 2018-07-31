@@ -46,9 +46,9 @@ class Header extends Component {
                         <a href="https://www.linkedin.com/in/dakota-maker-236740137/" target="_blank" rel="noopener noreferrer"><div className="info-container"><div className="info-icon"><Icon icon={linkedinSquare} size={24}/></div>Dakota Maker</div></a>
                 </div>
                 <nav className="phone-screen">
-                <Link onClick = {() => this.handleClick('home') } className={this.state.selected === 'home' ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
-                        <Link onClick = {() => this.handleClick('resume') } className={this.state.selected === 'resume' ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
-                        <Link onClick = {() => this.handleClick('cover') } className={this.state.selected === 'cover' ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
+                    <Link onClick = {() => this.handleClick('home') } className={this.state.selected === 'home' ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
+                    <Link onClick = {() => this.handleClick('resume') } className={this.state.selected === 'resume' ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
+                    <Link onClick = {() => this.handleClick('cover') } className={this.state.selected === 'cover' ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
                 </nav>
             </header>
         );
