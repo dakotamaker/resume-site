@@ -45,9 +45,8 @@ a {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    @media (min-width: 1001px)  { top: 18%; }
-    @media (min-width: 487px) and (max-width: 1000px)  { top: 24%; }
-    @media (max-width: 486px)  { top: 29%; }
+    @media (min-width: 1001px)  { top: 19%; }
+    @media (max-width: 1000px)  { top: 27%; }
     position: fixed;
     overflow-y: scroll;
     overflow-x: auto;

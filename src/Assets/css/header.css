@@ -34,13 +34,10 @@ a {
   bottom: 20px; }
   @media (min-width: 1001px) {
     .container-fluid {
-      top: 18%; } }
-  @media (min-width: 487px) and (max-width: 1000px) {
+      top: 19%; } }
+  @media (max-width: 1000px) {
     .container-fluid {
-      top: 24%; } }
-  @media (max-width: 486px) {
-    .container-fluid {
-      top: 29%; } }
+      top: 27%; } }
   .container-fluid h1 {
     padding-bottom: 12px;
     display: flex; }
