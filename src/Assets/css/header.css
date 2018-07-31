@@ -13,16 +13,15 @@ body {
 
 a {
   color: #ffffff;
-  -webkit-transition: 0.4s ease-in;
-  -moz-transition: 0.4s ease-in;
-  transition: 0.4s ease-in;
-  cursor: pointer; }
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 4px; }
   a:hover {
+    color: #dd924b;
     text-decoration: none;
-    color: #bdb8b8;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in; }
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    transition: 0.3s ease-in; }
 
 .container-fluid {
   line-height: 24px;
@@ -90,6 +89,25 @@ header {
         flex-direction: row;
         justify-content: space-between;
         align-items: center; } }
+    header .name-container .desktop-screen a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #dd924b;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s; }
+    header .name-container .desktop-screen a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1); }
+    header .name-container .desktop-screen a.selected {
+      color: #dd924b; }
   header .contact {
     position: relative;
     padding-bottom: 4px;
@@ -136,4 +154,23 @@ header {
       justify-content: space-between; }
       header .phone-screen a {
         display: inline-flex;
-        font-size: 20px; } }
+        font-size: 20px; }
+        header .phone-screen a:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #dd924b;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          transition: all 0.3s ease-in-out 0s; }
+        header .phone-screen a:hover:before {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1); }
+      header .phone-screen a.selected {
+        color: #dd924b; } }
