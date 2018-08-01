@@ -51,7 +51,7 @@ class Resume extends Component {
             <h4> Work Experience </h4><hr/>
             <p className="work-description"> SOFTWARE ENGINEER INTERN | JDA SOFTWARE | MAY 2017-CURRENT</p> 
             <div className="image-with-list"><img src={jdaImg}/><ul>{jda}</ul></div><hr className="alt-hr"/>
-            <p className="work-description"> PASS SUPLEMENTAL INSTRUCTION LEADER | UWM PASS TUTORING | AUGUST 2016-MAY 201</p> 
+            <p className="work-description"> PASS SUPLEMENTAL INSTRUCTION LEADER | UWM PASS TUTORING | AUGUST 2016-MAY 2017</p> 
             <div className="image-with-list"><img src={pantherImg}/><ul>{pass}</ul></div>
             </Animated> 
 

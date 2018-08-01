@@ -53,7 +53,7 @@ a {
 
 .container-fluid .image-with-list {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   width: 100%; }
   .container-fluid .image-with-list img {
     max-height: 120px;
