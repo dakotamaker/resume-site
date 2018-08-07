@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
+import { ReactGA } from 'react-ga';
 import Header from './Components/headerComponent/header';
 import HomePage from './Components/pages/homePage';
 import Resume from './Components/pages/resume/resume';
@@ -12,10 +12,16 @@ import './Assets/css/homePage.css';
 import './Assets/css/resume.css';
 import './Assets/css/coverLetter.css';
 
+ReactGA.initialize('UA-123398424-1');
+
 class App extends Component {
   render() {
+    function fireTracking() {
+      ReactGA.pageview(window.location.hash);
+    }
+
     return (
-      <Router>
+      <Router onUpdate={fireTracking}>
       <div className="App">
         <Header/>
           <Route exact path={Routes.HOME_PAGE} component={HomePage}/>

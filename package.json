@@ -4,16 +4,17 @@
   "private": true,
   "homepage": "https://dakotamaker.github.io/resume-site",
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-addons-update": "^15.6.2",
-    "react-icons-kit": "^1.1.5",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^1.1.4",
     "gh-pages": "^1.2.0",
+    "hoek": "^5.0.3",
+    "react": "^16.4.1",
+    "react-addons-update": "^15.6.2",
     "react-animated-css": "^1.0.4",
     "react-bootstrap-table-next": "^0.1.14",
-    "hoek": "^5.0.3"
+    "react-dom": "^16.4.1",
+    "react-ga": "^2.5.3",
+    "react-icons-kit": "^1.1.5",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

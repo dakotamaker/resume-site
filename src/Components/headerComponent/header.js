@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { ReactGA } from 'react-ga';
 import Icon from 'react-icons-kit';
 import { phone } from 'react-icons-kit/fa/phone';
 import { envelope } from 'react-icons-kit/fa/envelope';
 import { github } from 'react-icons-kit/fa/github';
 import { linkedinSquare } from 'react-icons-kit/fa/linkedinSquare';
 import Routes from '../../Routes';
+ReactGA.initialize('UA-123398424-1');
 
 class Header extends Component {
     constructor(props) {
@@ -19,7 +21,16 @@ class Header extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
+    gaHandleClick() {
+        ReactGA.event({
+            category: 'Navigation',
+            action: 'Clicked Link',
+        });
+    }
+
     handleClick(pageClicked) {
+        this.gaHandleClick();
+
         localStorage.setItem('selected', pageClicked)
         this.setState({
             selected: localStorage.getItem('selected')
