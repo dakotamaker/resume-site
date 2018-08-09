@@ -1,39 +1,24 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { ReactGA } from 'react-ga';
 import Icon from 'react-icons-kit';
 import { phone } from 'react-icons-kit/fa/phone';
 import { envelope } from 'react-icons-kit/fa/envelope';
 import { github } from 'react-icons-kit/fa/github';
 import { linkedinSquare } from 'react-icons-kit/fa/linkedinSquare';
 import Routes from '../../Routes';
-ReactGA.initialize('UA-123398424-1');
+import Resume from '../pages/resume/resume';
 
 class Header extends Component {
     constructor(props) {
         super(props);
-
-        if(!localStorage.getItem('selected')) {
-            localStorage.setItem('selected', 'home');
-        }
-
-        this.state = {selected: localStorage.getItem('selected')};
+        this.fullUrl = window.location.href;
+        this.state = {url: this.fullUrl.substr(this.fullUrl.lastIndexOf("/"), this.fullUrl.length - 1)};
         this.handleClick = this.handleClick.bind(this);
     }
 
-    gaHandleClick() {
-        ReactGA.event({
-            category: 'Navigation',
-            action: 'Clicked Link',
-        });
-    }
-
-    handleClick(pageClicked) {
-        this.gaHandleClick();
-
-        localStorage.setItem('selected', pageClicked)
+    handleClick(route) {
         this.setState({
-            selected: localStorage.getItem('selected')
+            url: route
         });
     }
 
@@ -45,9 +30,9 @@ class Header extends Component {
                         Dakota D. Maker
                     </div>
                     <nav className="desktop-screen">
-                        <Link onClick = {() => this.handleClick('home') } className={this.state.selected === 'home' ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
-                        <Link onClick = {() => this.handleClick('resume') } className={this.state.selected === 'resume' ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
-                        <Link onClick = {() => this.handleClick('cover') } className={this.state.selected === 'cover' ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
+                        <Link onClick = {() => this.handleClick(Routes.HOME_PAGE) } className={this.state.url === "/" ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
+                        <Link onClick = {() => this.handleClick(Routes.RESUME_PAGE) } className={this.state.url === "/resume" ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
+                        <Link onClick = {() => this.handleClick(Routes.COVER_LETTER_PAGE) } className={this.state.url === "/coverLetter" ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
                     </nav>
                 </div>
                 <div className="contact">
@@ -57,9 +42,9 @@ class Header extends Component {
                         <a href="https://www.linkedin.com/in/dakota-maker-236740137/" target="_blank" rel="noopener noreferrer"><div className="info-container"><div className="info-icon"><Icon icon={linkedinSquare} size={24}/></div>Dakota Maker</div></a>
                 </div>
                 <nav className="phone-screen">
-                    <Link onClick = {() => this.handleClick('home') } className={this.state.selected === 'home' ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
-                    <Link onClick = {() => this.handleClick('resume') } className={this.state.selected === 'resume' ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
-                    <Link onClick = {() => this.handleClick('cover') } className={this.state.selected === 'cover' ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
+                    <Link onClick = {() => this.handleClick(Routes.HOME_PAGE) } className={this.state.url === "/" ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
+                    <Link onClick = {() => this.handleClick(Routes.RESUME_PAGE) } className={this.state.url === "/resume" ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
+                    <Link onClick = {() => this.handleClick(Routes.COVER_LETTER_PAGE) } className={this.state.url === "/coverLetter" ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
                 </nav>
             </header>
         );
