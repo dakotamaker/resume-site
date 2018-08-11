@@ -30,9 +30,9 @@ class Header extends Component {
                         Dakota D. Maker
                     </div>
                     <nav className="desktop-screen">
-                        <Link onClick = {() => this.handleClick(Routes.HOME_PAGE) } className={this.state.url === "/" ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
-                        <Link onClick = {() => this.handleClick(Routes.RESUME_PAGE) } className={this.state.url === "/resume" ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
-                        <Link onClick = {() => this.handleClick(Routes.COVER_LETTER_PAGE) } className={this.state.url === "/coverLetter" ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
+                        <Link onClick = {() => this.handleClick(Routes.HOME_PAGE) } className={this.state.url.toLowerCase() === Routes.HOME_PAGE.toLowerCase() ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
+                        <Link onClick = {() => this.handleClick(Routes.RESUME_PAGE) } className={this.state.url.toLowerCase() === Routes.RESUME_PAGE.toLowerCase() ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
+                        <Link onClick = {() => this.handleClick(Routes.COVER_LETTER_PAGE) } className={this.state.url.toLowerCase() === Routes.COVER_LETTER_PAGE.toLowerCase() ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
                     </nav>
                 </div>
                 <div className="contact">
@@ -42,9 +42,9 @@ class Header extends Component {
                         <a href="https://www.linkedin.com/in/dakota-maker-236740137/" target="_blank" rel="noopener noreferrer"><div className="info-container"><div className="info-icon"><Icon icon={linkedinSquare} size={24}/></div>Dakota Maker</div></a>
                 </div>
                 <nav className="phone-screen">
-                    <Link onClick = {() => this.handleClick(Routes.HOME_PAGE) } className={this.state.url === "/" ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
-                    <Link onClick = {() => this.handleClick(Routes.RESUME_PAGE) } className={this.state.url === "/resume" ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
-                    <Link onClick = {() => this.handleClick(Routes.COVER_LETTER_PAGE) } className={this.state.url === "/coverLetter" ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
+                    <Link onClick = {() => this.handleClick(Routes.HOME_PAGE) } className={this.state.url.toLowerCase() === Routes.HOME_PAGE.toLowerCase() ? 'selected':'nope'} to={Routes.HOME_PAGE}>Home</Link>
+                    <Link onClick = {() => this.handleClick(Routes.RESUME_PAGE) } className={this.state.url.toLowerCase() === Routes.RESUME_PAGE.toLowerCase() ? 'selected':'nope'} to={Routes.RESUME_PAGE}>Resume</Link>   
+                    <Link onClick = {() => this.handleClick(Routes.COVER_LETTER_PAGE) } className={this.state.url.toLowerCase() === Routes.COVER_LETTER_PAGE.toLowerCase() ? 'selected':'nope'} to={Routes.COVER_LETTER_PAGE}>Cover Letter</Link> 
                 </nav>
             </header>
         );
