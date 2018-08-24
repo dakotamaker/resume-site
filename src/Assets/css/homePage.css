@@ -28,19 +28,14 @@ a {
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  position: fixed;
+  position: initial;
   overflow-y: scroll;
   overflow-x: auto;
   bottom: 20px; }
-  @media (min-width: 1001px) {
-    .container-fluid {
-      top: 19%; } }
-  @media (max-width: 1000px) {
-    .container-fluid {
-      top: 27%; } }
   .container-fluid h1 {
     padding-bottom: 12px;
-    display: flex; }
+    display: flex;
+    padding-top: 12px; }
     .container-fluid h1 .page-title {
       width: calc(100% - 50px); }
     .container-fluid h1 .logo-container img {

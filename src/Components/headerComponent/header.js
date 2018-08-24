@@ -6,7 +6,6 @@ import { envelope } from 'react-icons-kit/fa/envelope';
 import { github } from 'react-icons-kit/fa/github';
 import { linkedinSquare } from 'react-icons-kit/fa/linkedinSquare';
 import Routes from '../../Routes';
-import Resume from '../pages/resume/resume';
 
 class Header extends Component {
     constructor(props) {

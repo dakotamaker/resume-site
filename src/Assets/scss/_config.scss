@@ -45,16 +45,14 @@ a {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    @media (min-width: 1001px)  { top: 19%; }
-    @media (max-width: 1000px)  { top: 27%; }
-    position: fixed;
+    position: initial;
     overflow-y: scroll;
     overflow-x: auto;
     bottom: 20px;
     h1 {
         padding-bottom: 12px;
         display: flex;
-
+        padding-top: 12px;
         .page-title {
             width: calc(100% - 50px);
         }
