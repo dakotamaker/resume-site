@@ -1,8 +1,6 @@
 .App {
   display: flex;
-  flex-direction: column;
-  overflow-x: auto;
-  overflow-y: scroll; }
+  flex-direction: column; }
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -28,10 +26,19 @@ a {
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  position: initial;
+  position: relative;
   overflow-y: scroll;
   overflow-x: auto;
   bottom: 20px; }
+  @media (min-width: 1000px) {
+    .container-fluid {
+      top: 101px; } }
+  @media (min-width: 621px) and (max-width: 999px) {
+    .container-fluid {
+      top: 120px; } }
+  @media (max-width: 620px) {
+    .container-fluid {
+      top: 144px; } }
   .container-fluid h1 {
     padding-bottom: 12px;
     display: flex;
@@ -44,7 +51,8 @@ a {
     font-weight: bold; }
 
 .container-fluid div .about {
-  display: flex; }
+  display: flex;
+  margin-bottom: 16px; }
   .container-fluid div .about svg {
     margin-right: 30px;
     color: #dd924b; }
