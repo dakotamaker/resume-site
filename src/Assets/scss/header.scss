@@ -1,7 +1,7 @@
 @import "./_config.scss";
 
 header {
-    position: relative;
+    position: fixed;
     width: 100%;
     background: $darkGrey;
     color: $white;

@@ -8,9 +8,6 @@ $orange: #dd924b;
 .App {
     display: flex;
     flex-direction: column;
-
-    overflow-x: auto;
-    overflow-y: scroll;
 }
 
 body {
@@ -45,10 +42,15 @@ a {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    position: initial;
+    position: relative;
     overflow-y: scroll;
     overflow-x: auto;
     bottom: 20px;
+
+    @media (min-width: 1000px) {top:101px;}
+    @media (min-width:621px) and (max-width:999px) {top:120px;}
+    @media (max-width: 620px) {top:144px;}
+
     h1 {
         padding-bottom: 12px;
         display: flex;

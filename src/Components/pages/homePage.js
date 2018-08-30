@@ -31,30 +31,30 @@ class HomePage extends Component {
 
             <Animated animationIn="fadeInUp" animationInDelay={400} isVisible={true}>
             <h4> About Me </h4><hr/>
-            <p className="about">
+            <div className="about">
             <Icon icon={mapMarker} size={70}/>
             <div className="about-info"> I am orignally from Rochester, Minnesota.</div>
-            </p>
-            <p className="about">
+            </div>
+            <div className="about">
             <Icon icon={futbolO} size={70}/>
             <div className="about-info"> I am an avid sports fan. I played baseball and football through high school and club football in college.</div>
-            </p>            
-            <p className="about">
+            </div>            
+            <div className="about">
             <Icon icon={laptop} size={70}/>
             <div className="about-info"> A major goal of mine is to become a head software architect for a company (who knows, it could be yours).</div>
-            </p>            
-            <p className="about">
+            </div>            
+            <div className="about">
             <Icon icon={superscript} size={70}/>
             <div className="about-info"> If I wasn't pursuing software I would have tried to become a calculus or physics teacher. </div>
-            </p>
-            <p className="about">
+            </div>
+            <div className="about">
             <Icon icon={language} size={70}/>
             <div className="about-info"> A goal outside of tech is to learn at least one other language, preferrably Spanish. </div>
-            </p>
-            <p className="about">
+            </div>
+            <div className="about">
             <Icon icon={plane} size={70}/>
             <div className="about-info"> I have a passion to travel to as many places as I can across the world to sight-see and learn about different cultures.</div>
-            </p>  
+            </div>  
             </Animated>
         </div>
         )
