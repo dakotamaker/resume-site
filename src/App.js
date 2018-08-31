@@ -16,17 +16,22 @@ ReactGA.initialize('UA-123398424-1');
 
 class App extends Component {
   render() {
-    function fireTracking(nextState) {
-      ReactGA.pageview(nextState.location);
+    ReactGA.initialize('UA-123398424-1');
+
+    function reactGA() {
+      var fullUrl = window.location.href;
+      var url = fullUrl.substr(this.fullUrl.lastIndexOf("/"), this.fullUrl.length - 1)
+  
+      ReactGA.pageview(url);
     }
 
     return (
-      <Router onUpdate={fireTracking}>
+      <Router onUpdate={reactGA}>
       <div className="App">
         <Header/>
-          <Route onEnter = {fireTracking} exact path={Routes.HOME_PAGE} component={HomePage}/>
-          <Route onEnter = {fireTracking} exact path={Routes.RESUME_PAGE} component={Resume}/>
-          <Route onEnter = {fireTracking} exact path={Routes.COVER_LETTER_PAGE} component={CoverLetter}/>
+          <Route onEnter = {reactGA} exact path={Routes.HOME_PAGE} component={HomePage}/>
+          <Route onEnter = {reactGA} exact path={Routes.RESUME_PAGE} component={Resume}/>
+          <Route onEnter = {reactGA} exact path={Routes.COVER_LETTER_PAGE} component={CoverLetter}/>
       </div>
       </Router>
     );
