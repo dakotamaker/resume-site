@@ -27,9 +27,7 @@ a {
   padding-left: 10%;
   padding-right: 10%;
   position: relative;
-  overflow-y: scroll;
-  overflow-x: auto;
-  bottom: 20px; }
+  padding-bottom: 5vh; }
   @media (min-width: 1000px) {
     .container-fluid {
       top: 101px; } }
@@ -42,7 +40,7 @@ a {
   .container-fluid h1 {
     padding-bottom: 12px;
     display: flex;
-    padding-top: 12px; }
+    padding-top: 5vh; }
     .container-fluid h1 .page-title {
       width: calc(100% - 50px); }
     .container-fluid h1 .logo-container img {
