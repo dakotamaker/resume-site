@@ -8,4 +8,4 @@ A fun and different spin on an old, dry paper resume and cover letter! A react w
 - Simply run `npm start` and the app will launch and direct your webpage to `localhost:3000`.
 
 ## Visit the homepage of this repo
-- [Git-Pages link](https://dakotamaker.github.io/resume-site/)
+- [GitHub Pages link](https://dakotamaker.github.io/resume-site/)
