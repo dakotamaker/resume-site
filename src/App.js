@@ -18,6 +18,7 @@ class App extends Component {
   render() {
     function fireTracking(nextState) {
       ReactGA.pageview(nextState.location);
+      window.scrollTo(0, 0);
     }
 
     return (

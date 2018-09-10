@@ -19,6 +19,7 @@ class Header extends Component {
         this.setState({
             url: route
         });
+        window.scrollTo(0, 0);
     }
 
     render() {
