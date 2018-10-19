@@ -6,15 +6,15 @@ class ResumeDescriptions extends Component {
     "GPA: 3.554"
     ];
 
-    static jdaDescription = ["·	Developed a suite of microservices in an agile environment to enhance JDA’s product base by providing store optimization to customers",     
+    static jdaDescription = ["Developed a suite of microservices in an agile environment to enhance JDA’s product base by providing store optimization to customers",     
     "Experience in server-side development with RESTful APIs",
     "Created modern web application with different versions of Angular Material",
     "Completed or created varying DevOps measurements, dashboards, and projects", 
     "Collaborated with my own team, other Google Cloud Platform based teams, and other departments to deliver high quality software", 
     ];
 
-    static passDescription = ["·	Planned and conducted five weekly physics and math review sessions", 
-    "·	Created and presented 3 to 5 formal exam reviews, both in person and recorded",
+    static passDescription = ["Planned and conducted five weekly physics and math review sessions", 
+    "Created and presented 3 to 5 formal exam reviews, both in person and recorded",
     "Coordinated with professors on lesson plans",
     "Helped increase morale and grades in classes through relating and assisting students in their studies",
     "Participated  and contributed in bi-monthly meetings to help improve tutoring at UWM"
