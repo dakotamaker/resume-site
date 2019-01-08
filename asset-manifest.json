@@ -1,10 +1,17 @@
 {
-  "main.css": "static/css/main.57387243.css",
-  "main.css.map": "static/css/main.57387243.css.map",
-  "main.js": "static/js/main.7d99c825.js",
-  "main.js.map": "static/js/main.7d99c825.js.map",
-  "static/media/Panther.png": "static/media/Panther.339559fe.png",
-  "static/media/UWM.png": "static/media/UWM.8da5e87e.png",
-  "static/media/jda.png": "static/media/jda.ad97c26f.png",
-  "static/media/logo.png": "static/media/logo.e1701c74.png"
+  "main.css": "/resume-site/static/css/main.31603554.chunk.css",
+  "main.js": "/resume-site/static/js/main.a279a56e.chunk.js",
+  "main.js.map": "/resume-site/static/js/main.a279a56e.chunk.js.map",
+  "static/js/1.fa8c6edc.chunk.js": "/resume-site/static/js/1.fa8c6edc.chunk.js",
+  "static/js/1.fa8c6edc.chunk.js.map": "/resume-site/static/js/1.fa8c6edc.chunk.js.map",
+  "runtime~main.js": "/resume-site/static/js/runtime~main.4ba56516.js",
+  "runtime~main.js.map": "/resume-site/static/js/runtime~main.4ba56516.js.map",
+  "static/media/logo.png": "/resume-site/static/media/logo.e1701c74.png",
+  "static/media/Panther.png": "/resume-site/static/media/Panther.339559fe.png",
+  "static/media/jda.png": "/resume-site/static/media/jda.ad97c26f.png",
+  "static/media/UWM.png": "/resume-site/static/media/UWM.8da5e87e.png",
+  "static/css/main.31603554.chunk.css.map": "/resume-site/static/css/main.31603554.chunk.css.map",
+  "index.html": "/resume-site/index.html",
+  "precache-manifest.093868f9b94805c220d9da883134635e.js": "/resume-site/precache-manifest.093868f9b94805c220d9da883134635e.js",
+  "service-worker.js": "/resume-site/service-worker.js"
 }
