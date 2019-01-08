@@ -3,14 +3,14 @@ import { Component } from 'react';
 class ResumeDescriptions extends Component {
     static educationDescription = ["Bachelors of Science in Computer Engineering", 
     "Anticipated gradutaion: May 2019", 
-    "GPA: 3.554"
+    "GPA: 3.532"
     ];
 
     static jdaDescription = ["Developed a suite of microservices in an agile environment to enhance JDA’s product base by providing store optimization to customers",     
     "Experience in server-side development with RESTful APIs",
     "Created modern web application with different versions of Angular Material",
     "Completed or created varying DevOps measurements, dashboards, and projects", 
-    "Collaborated with my own team, other Google Cloud Platform based teams, and other departments to deliver high quality software", 
+    "Collaborated with my own team, other Google Cloud Platform and Microsft Azure based teams, and other departments to deliver high quality software", 
     ];
 
     static passDescription = ["Planned and conducted five weekly physics and math review sessions", 
