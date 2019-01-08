@@ -10,7 +10,7 @@ class ResumeDescriptions extends Component {
     "Experience in server-side development with RESTful APIs",
     "Created modern web application with different versions of Angular Material",
     "Completed or created varying DevOps measurements, dashboards, and projects", 
-    "Collaborated with my own team, other Google Cloud Platform and Microsft Azure based teams, and other departments to deliver high quality software", 
+    "Collaborated with my own team, other Google Cloud Platform and Microsoft Azure based teams, and other departments to deliver high quality software", 
     ];
 
     static passDescription = ["Planned and conducted five weekly physics and math review sessions", 
