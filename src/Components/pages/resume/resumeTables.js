@@ -16,7 +16,7 @@ class ResumeTables extends Component {
                    {key: 'Google Data Studio', exp: "✔"}, {key: 'Google Sheets', exp: "✔"}, 
                    {key: 'Jenkins CD Pipeline', prof: "✔"}, {key: 'Jira', exp: "✔"}, 
                    {key: 'Microsoft Office',exp: "✔"}, {key: 'Postman', prof: "✔"}, 
-                   {key: 'Google Cloud Platform', exp: "✔"}, {key: 'Microst Azure', prof: "✔"}, {key: ' '}];
+                   {key: 'Google Cloud Platform', exp: "✔"}, {key: 'Microsoft Azure', prof: "✔"}, {key: ' '}];
   
     const columns = [{dataField: 'key', text: ' ', align: 'left'}, 
                      {dataField: 'qual', text: 'Qualified', align: 'center', headerAlign: 'center', classes: 'check'}, 
